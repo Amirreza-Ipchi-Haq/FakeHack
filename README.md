@@ -1,11 +1,11 @@
-# Hack
+# FakeHack
 A prank tool for hacking
 
 This script can simulate hacking or a hacking scene used in the movies. It can also be used for pranking others!
 
 This script can only run on Linux.
 
-To run this script, you'll need to have XTerm installed on your system, or some of the functionalities won't work. Before you run this script, make sure you run `alias hack="bash <ScriptLocation>/Hack.sh"` (Replace the `<ScriptLocation>` with the location of the script). To run this, you have to run this command:
+To run this script, you'll need to have XTerm installed on your system, or some of the functionalities won't work. Before you run this script, make sure you run `alias hack="bash <ScriptLocation>/FakeHack.sh"` (Replace the `<ScriptLocation>` with the location of the script). To run this, you have to run this command:
 
 ```hack <Anything>```
 
