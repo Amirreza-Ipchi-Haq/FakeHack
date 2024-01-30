@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 echo -en "\e[32m"
 for((i=0;i<101;i++))
 do
@@ -17,4 +17,4 @@ sleep 2
 echo "Access fully granted!"
 sleep 2
 echo -e "\n$(case $1 in '')echo The device;;*)echo $1;;esac) has been hacked successfully!"
-xterm -T "Receiving Data" -n "Receiving Data" -e "echo -en \"\e[0;32m\";while true;do shuf -zi 0-1 -n 1;done"
+x-terminal-emulator -T "Receiving Data" -n "Receiving Data" -e "tput civis;printf \"\e[0;32m\";while true;do shuf -zi 0-1 -n 1;done"
